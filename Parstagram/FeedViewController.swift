@@ -59,7 +59,19 @@ class FeedViewController: UIViewController,UITableViewDelegate, UITableViewDataS
         cell.photoView.af_setImage(withURL: url)
         
         return cell
+        }
+    
+    
+    @IBAction func onLogoutButton(_ sender: Any) {
+        PFUser.logOut()
         
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        guard let windowScence = UIApplication.shared.connectedScenes.first as? UIWindowScene, let
+                delegate = windowScence.delegate as? SceneDelegate else {return}
         
+        delegate.window?.rootViewController = loginViewController
     }
+    
+    
 }
