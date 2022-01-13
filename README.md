@@ -41,3 +41,5 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+![Pz9IOgNywV](https://user-images.githubusercontent.com/79591114/149379448-e4e5767e-589b-4f64-9bf9-2cc845cf4a6b.gif)
+
