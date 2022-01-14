@@ -17,6 +17,9 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
+![j7VUOYw9WB](https://user-images.githubusercontent.com/79591114/149549716-428e2601-32e4-439d-9a81-5b7ce2d4c544.gif)
+
+
 
 
 
